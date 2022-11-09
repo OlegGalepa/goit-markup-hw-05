@@ -69,7 +69,18 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Замовити послугу
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="button-box" type="button" data-modal-close>
+                <svg class="icon-box" width="18px" height="18px">
+                  <use href="./images/main_page/close.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section features">
@@ -118,6 +129,7 @@
                   alt="робота за комп'ютером"
                   width="370"
                 />
+                <p class="text-wrap">Десктопні додатки</p>
               </div>
               <div class="imgs">
                 <img
@@ -125,9 +137,11 @@
                   alt="синхронізація ПК і телефону"
                   width="370"
                 />
+                <p class="text-wrap">Мобільні додатки</p>
               </div>
               <div class="imgs">
                 <img src="images/main_page/img3.jpg" alt="Спектр" width="370" />
+                <p class="text-wrap">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -582,5 +596,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
