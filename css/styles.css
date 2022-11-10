@@ -155,7 +155,7 @@ h1, h2, h3, p {
     font-weight: 500;
     letter-spacing: 0.02em;
     fill: var(--o-nas-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail:hover, .header-mail:focus ,
 .header-tel:hover, .header-tel:focus {
@@ -488,6 +488,7 @@ margin-top: 20px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--bg-header-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .number {
@@ -498,6 +499,7 @@ margin-top: 20px;
  .footer-link {
      font-style: normal;
      color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .social-title-footer {
@@ -534,6 +536,7 @@ margin-top: 20px;
     color: var(--title-text-color);
     cursor: pointer;
     outline: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .carts-button.all {
@@ -545,7 +548,6 @@ margin-top: 20px;
     background-color: var(--focus-color);
     color: var(--bg-header-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .parent-list {
